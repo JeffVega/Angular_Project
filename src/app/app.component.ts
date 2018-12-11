@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ng6';
+  /* this is where our propertys go + methods */
+  title = 'person';
 }
