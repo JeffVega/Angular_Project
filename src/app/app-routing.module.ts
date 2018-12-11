@@ -13,11 +13,11 @@ const routes: Routes = [
   },
   {
     path:'details/:id',
-    component:PostsComponent
+    component:DetailsComponent
   },
   {
     path:'posts',
-    component:DetailsComponent
+    component:PostsComponent
   }
 ];
 
