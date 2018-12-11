@@ -1,3 +1,10 @@
-<p>
-  posts works!
-</p>
+<h1>All the Posts</h1>
+
+<ul *ngFor='let posts of post$'>
+  <li>
+    <ul>
+  <li >{{posts.title}}</li>
+  <li >{{posts.body}}</li>
+</ul>
+</li>
+</ul>
